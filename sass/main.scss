@@ -1,0 +1,18 @@
+$textcolor: red;
+@mixing commoncode {
+	color: $textcolor ; text-transform: uppercase;
+}
+
+.text-left
+{
+	padding: 300px 0;
+
+h3{ @include commoncode;
+ color: $textcolor;
+ }
+ h1
+{
+	
+	font-size: 70px;
+}
+}
